@@ -33,7 +33,7 @@ body{
     margin-top: 0;
     width: 20%;
 }
-.nav-item__logo{
+#nav-item-logo{
     display: block;
     height: 58px;
     line-height: 0;
@@ -44,7 +44,7 @@ body{
     color: black;
     font-size: 14px;
 }
-.main-image__container{
+.main-image-container{
     padding-top: 78px;
     margin-top: -40px;
     background-position: center bottom ;
@@ -81,27 +81,27 @@ body{
     margin: 0 auto;
     padding: 45px;
 }
-.real-town__block, .bridge__block, .sedona__benefits{
+.real-town-block, .bridge__block, .sedona__benefits{
     display: flex;
     flex-direction: row;
     height: 250px;
 }
-.real-town__text, .bridge__text{
+.real-town-text, .bridge__text{
     background-color: rgb(232,232,232);
     color: white;
-    width: 33%;
+    width: 33.33%;
     height: inherit;
     text-align: center;
     line-height: 25px;
 }
-.real-town__title, .bridge__title, .info__title{
+.real-town-title, .bridge__title, .info__title{
     font-size: 21px;
 }
-.real-town__number, .bridge__number, .info__number{
+.real-town-number, .bridge__number, .info__number{
     padding: 15px 0;
     font-size: 15px;
 }
-.real-town__description, .bridge__description , .info__description{
+.real-town-description, .bridge__description , .info__description{
     font-size: 12px;
     line-height: 20px;
 }
@@ -110,14 +110,14 @@ body{
     width: 100%;
     height: 250px;
 }
-.real-town__benefits{
+.real-town-benefits{
     display: flex;
     flex-direction: row;
     height: 250px;
     list-style: none;
     
 }
-.real-town__info{
+.real-town-info{
     width: 33.33%;
     height: 250px;
     text-align: center;
@@ -170,22 +170,24 @@ body{
     display: flex;
     flex-direction: row;
     padding-top: 70px;
+    padding-left: 30px;
 }
-.visit-sedona__link{
+.visit-sedona-link{
     font-size: 20px;
     text-decoration: none;
     color: black;
     text-align: left;
 }
-.social-network__container{
+.social-network-container{
     text-align: center;
     margin: 0 auto;
 }
-.social-network__link{
+.social-network-link{
     padding: 0 15px;
 }
 .developer__container{
     display: flex;
+    padding-right: 30px;
 }
 .developer__text{
     padding-right: 12px;
@@ -211,7 +213,7 @@ body{
         font-size: 18px;
         line-height: 53px;
     }
-    #nav-item__logo{
+    #nav-item-logo{
         order: 5;
         background-color: transparent;
         height: 55px;
@@ -229,15 +231,15 @@ body{
     .menu__closed li{
         display: none;
     }
-    .main-image__container{
+    .main-image-container{
         background-image: url("../img/intro-triangle.png"),url("../img/back-mobile.png");   
     }
-    .real-town__block, .bridge__block, .sedona__benefits{
+    .real-town-block, .bridge__block, .sedona__benefits{
         flex-direction: column;
         justify-content: center;
         height: auto;
     }
-    .real-town__text, .bridge__text{
+    .real-town-text, .bridge__text{
         width: 100%;
         height: auto;
         min-height: 200px;
@@ -255,7 +257,7 @@ body{
         height: 40px;
         
     }
-    .real-town__benefits{
+    .real-town-benefits{
         flex-direction: column;
         width: auto;
         height: inherit;
@@ -276,7 +278,7 @@ body{
     .town{
         width: 100%;
     }
-    .real-town__info{
+    .real-town-info{
         width: auto;
         height: auto;
         padding: 20px 5%;
@@ -292,10 +294,10 @@ body{
     .icon__text{
         padding-left: 25px;
     }
-    .real-town__title{
+    .real-town-title{
         font-size: 1.1rem;
     }
-    .real-town__description{
+    .real-town-description{
         font-size: 0.9rem;
     }
     .bridge__image{
@@ -319,7 +321,7 @@ body{
         flex-direction: column;
         justify-content: center;
     }
-    .visit-sedona__link{
+    .visit-sedona-link{
         text-align: center;
     }
     .developer__container{
@@ -327,7 +329,7 @@ body{
         justify-content: center;
         padding-top: 20px;
     }
-    .social-network__container{
+    .social-network-container{
         padding-top: 20px;
     }
     .burger__icon{
